@@ -125,16 +125,12 @@ Make sure the ports match your backend configuration.
 
 ---
 
-## Screenshots (optional but recommended)
-Create a folder `screenshots/` and add images like:
+## Screenshots 
 - login
 - customer search results
 - filters
 - manager dashboard
 
-Then embed them here:
-md
-## Screenshots
 ## Screenshots
 ![Login](screenshot/login.png)
 ![Search](screenshot/search.png)
