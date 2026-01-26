@@ -135,9 +135,11 @@ Create a folder `screenshots/` and add images like:
 Then embed them here:
 ```md
 ## Screenshots
+## Screenshots
 ![Login](screenshot/login.png)
 ![Search](screenshot/search.png)
 ![Cmd](screenshot/cmd.png)
+
 
 
 ![Login](Screenshot%202026-01-26%20074639.png)
