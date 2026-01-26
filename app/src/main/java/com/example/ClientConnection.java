@@ -13,7 +13,7 @@ public class ClientConnection {
     private ObjectInputStream input;
     private ObjectOutputStream output;
 
-    private final String serverIP = "192.168.2.2";  // IP του Master Server για συσκευή 192.168.1.3 , για emulator 10.0.2.2
+    private final String serverIP = "10.0.2.2";  // IP του Master Server για συσκευή 192.168.1.3 , για emulator 10.0.2.2
     private final int serverPort = 65432;
 
     private ClientConnection() throws IOException {
