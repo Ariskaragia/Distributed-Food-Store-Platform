@@ -133,7 +133,7 @@ Create a folder `screenshots/` and add images like:
 - manager dashboard
 
 Then embed them here:
-```md
+md
 ## Screenshots
 ## Screenshots
 ![Login](screenshot/login.png)
