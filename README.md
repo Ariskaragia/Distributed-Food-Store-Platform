@@ -134,5 +134,6 @@ Create a folder `screenshots/` and add images like:
 
 Then embed them here:
 ```md
-![Login](screenshots/login.png)
-![Search](screenshots/search.png)
+![Login](Screenshot 2026-01-26 074639.png)
+![Search](Screenshot 2026-01-26 074719.png)
+![cmd](Screenshot 2026-01-26 074736.png)
