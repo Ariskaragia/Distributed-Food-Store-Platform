@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    tools:context=".ActivityRegisterCustomer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        android:contentDescription="Background" />
+
+
+    <View
+        android:id="@+id/darkOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000" />
+
+    <TextView
+        android:id="@+id/RegisterTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textSize="27dp"
+        android:textColor="@android:color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/editTextContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@+id/RegisterTitle">
+
+        <EditText
+            android:id="@+id/CRusername"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Username"
+            android:layout_marginTop="60dp"
+            android:textSize="20dp"
+            android:padding="2dp"
+            android:paddingStart="10dp"
+            android:background="@drawable/underline"
+            android:textColorHint="@android:color/white"
+            android:textStyle="italic"
+            android:alpha="0.8"/>
+
+        <EditText
+            android:id="@+id/CRPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:padding="2dp"
+            android:paddingStart="10dp"
+            android:background="@drawable/underline"
+            android:textColorHint="@android:color/white"
+            android:textStyle="italic"
+            android:alpha="0.8"
+            android:layout_below="@id/CRusername" />
+
+        <EditText
+            android:id="@+id/CRName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Name"
+            android:layout_below="@+id/CRPassword"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:padding="2dp"
+            android:paddingStart="10dp"
+            android:background="@drawable/underline"
+            android:textColorHint="@android:color/white"
+            android:textStyle="italic"
+            android:alpha="0.8"/>
+
+        <EditText
+            android:id="@+id/CRLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Latitude"
+            android:layout_below="@+id/CRName"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:padding="2dp"
+            android:paddingStart="10dp"
+            android:background="@drawable/underline"
+            android:textColorHint="@android:color/white"
+            android:textStyle="italic"
+            android:alpha="0.8"/>
+
+        <EditText
+            android:id="@+id/CRLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Longitude"
+            android:layout_below="@+id/CRLatitude"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:padding="2dp"
+            android:paddingStart="10dp"
+            android:background="@drawable/underline"
+            android:textColorHint="@android:color/white"
+            android:textStyle="italic"
+            android:alpha="0.8"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnCRsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textSize="16dp"
+        android:backgroundTint="@color/midnight_blue"
+        android:textColor="@color/white"
+        android:text="Submit" />
+
+</RelativeLayout>

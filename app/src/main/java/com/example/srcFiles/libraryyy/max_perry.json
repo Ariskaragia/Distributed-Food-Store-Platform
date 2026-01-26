@@ -1,0 +1,29 @@
+{
+    "storeName": "Max Perry",
+    "latitude":  38.00092042271475, 
+    "longitude": 23.73593989814869,
+    "foodCategory": "pastry",
+    "stars": 4,
+    "noOfVotes": 831,
+    "storeLogo": "C:\\Users\\stroz\\Downloads\\JSON ΚΑΤΑΝΕΜΗΜΕΝΑ\\max_perry.png",
+    "products": [
+      {
+        "productName": "Cake chocolate Oreo",
+        "productType": "cake",
+        "availableAmount": 2000,
+        "price": 29.0
+      },
+      {
+        "productName": "ice-cream cookies",
+        "productType": "ice-cream",
+        "availableAmount": 975,
+        "price": 8.5
+      },
+      {
+        "productName": "tsoureki pralina kai mpiskoto",
+        "productType": "tsoureki",
+        "availableAmount": 200,
+        "price": 17.9
+      }
+    ]
+  }

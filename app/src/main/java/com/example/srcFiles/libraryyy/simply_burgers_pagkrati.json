@@ -1,0 +1,30 @@
+{
+        "storeName": "Simply Burgers",
+        "latitude":  37.974131729229995, 
+        "longitude": 23.750233360177212,
+        "foodCategory": "burger",  
+        "stars": 4.1,
+        "noOfVotes": 673,
+        "storeLogo":"C:\\Users\\stroz\\Downloads\\JSON ΚΑΤΑΝΕΜΗΜΕΝΑ\\simply-burger-franchise-logo.png",
+        "products": [
+          {
+            "productName": "The Beefeater Single",
+            "productType": "burger",
+            "availableAmount": 1300,
+            "price": 10.9
+          },
+          {
+            "productName": "The Classic Single",
+            "productType": "burger",
+            "availableAmount": 1500,
+            "price": 6.9
+          },
+          {
+            "productName": "Original Chicken Caesar",
+            "productType": "salad",
+            "availableAmount": 150,
+            "price": 8.4
+          }
+        ]
+
+    }

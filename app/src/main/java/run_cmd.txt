@@ -1,0 +1,13 @@
+ΚΑΡΑΓΙΑΝΝΑΚΟΣ ΑΡΙΣΤΕΙΔΗΣ, 3220066
+ΚΟΣΜΙΔΗ ΕΛΛΗ, 3220086
+ΠΡΩΙΚΑΚΗΣ ΣΠΥΡΟΣ, 3220167
+
+javac -cp ".;gson-2.10.1.jar" com/example/srcFiles/*.java
+java -cp ".;gson-2.10.1.jar" com.example.srcFiles.ClusterLauncher 3
+java -cp ".;gson-2.10.1.jar" com.example.srcFiles.ManagerConsole
+java -cp ".;gson-2.10.1.jar" com.example.srcFiles.CustomerConsole
+
+
+C:\Users\ArisK\Desktop\awd\3220066_ 3220086_3220167\com\example\arxeio.json
+
+C:\Users\ArisK\Desktop\awd\3220066_ 3220086_3220167\com\example\diagram.png

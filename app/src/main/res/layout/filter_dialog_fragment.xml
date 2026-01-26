@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvFilterTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter Options"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <!-- Stars -->
+    <TextView
+        android:id="@+id/tvStars"
+        android:layout_below="@id/tvFilterTitle"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stars" />
+
+
+    <RelativeLayout
+        android:id="@+id/blockStars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvStars"
+        android:layout_marginTop="4dp">
+
+        <CheckBox
+            android:id="@+id/checkStar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="1" />
+
+        <CheckBox
+            android:id="@+id/checkStar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/checkStar1"
+            android:text="2" />
+
+        <CheckBox
+            android:id="@+id/checkStar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/checkStar2"
+            android:text="3" />
+
+        <CheckBox
+            android:id="@+id/checkStar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/checkStar3"
+            android:text="4" />
+
+        <CheckBox
+            android:id="@+id/checkStar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/checkStar4"
+            android:text="5" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvTypes"
+        android:layout_below="@id/blockStars"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Category" />
+
+    <LinearLayout
+        android:id="@+id/storeTypeContainer"
+        android:layout_below="@id/tvTypes"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_below="@id/storeTypeContainer"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price Category" />
+
+    <RelativeLayout
+        android:id="@+id/blockPrices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPrice"
+        android:layout_marginTop="4dp">
+
+        <CheckBox
+            android:id="@+id/checkPrice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="$" />
+
+        <CheckBox
+            android:id="@+id/checkPrice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/checkPrice1"
+            android:text="$$" />
+
+        <CheckBox
+            android:id="@+id/checkPrice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/checkPrice2"
+            android:text="$$$"/>
+    </RelativeLayout>
+    <!-- Submit -->
+    <Button
+        android:id="@+id/btnApply"
+        android:layout_below="@id/blockPrices"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+{
+        "storeName": "Roma Pizza",
+        "latitude":  38.00834758924392, 
+        "longitude": 23.739539797869345,
+        "foodCategory": "pizzeria",  
+        "stars": 4,
+        "noOfVotes": 108,
+        "storeLogo": "C:\\Users\\stroz\\Downloads\\roma pizza.jpg",
+        "products": [
+          {
+            "productName": "margarita",
+            "productType": "pizza",
+            "availableAmount": 4000,
+            "price": 8.7
+          },
+          {
+            "productName": "special",
+            "productType": "pizza",
+            "availableAmount": 1000,
+            "price": 9.1
+          },
+          {
+            "productName": "Chef's Salad",
+            "productType": "salad",
+            "availableAmount": 100,
+            "price": 6.5
+          }
+        ]
+
+    }
+

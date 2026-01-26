@@ -1,0 +1,30 @@
+{
+    "storeName": "Domino's Pizza",
+    "latitude":  37.99342098083855,  
+    "longitude": 23.677438121683515,
+    "foodCategory": "pizzeria",  
+    "stars": 4,
+    "noOfVotes": 551,
+    "storeLogo": "C:\\Users\\stroz\\Downloads\\dominos-pizza.png",
+    "products": [
+      {
+        "productName": "margarita",
+        "productType": "pizza",
+        "availableAmount": 4000,
+        "price": 8.6
+      },
+      {
+        "productName": "special",
+        "productType": "pizza",
+        "availableAmount": 1000,
+        "price": 9.9
+      },
+      {
+        "productName": "Domino's Salad",
+        "productType": "salad",
+        "availableAmount": 100,
+        "price": 7.25
+      }
+    ]
+
+}

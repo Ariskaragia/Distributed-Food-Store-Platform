@@ -1,0 +1,29 @@
+{
+  "storeName": "PO'BOYS BBQ",
+  "latitude": 4, 
+  "longitude": 5,
+  "foodCategory": "burger",  
+  "stars": 4,
+  "noOfVotes": 4491,
+  "storeLogo":"C:\\Users\\stroz\\Downloads\\JSON ΚΑΤΑΝΕΜΗΜΕΝΑ\\po'boys.png",
+  "products": [
+    {
+      "productName": "Double Smashed Cheese Burger",
+      "productType": "burger",
+      "availableAmount": 1330,
+      "price": 9.9
+    },
+    {
+      "productName": "Blackened Chicken Burger",
+      "productType": "burger",
+      "availableAmount": 1150,
+      "price": 10.5 
+    },
+    {
+      "productName": "Smoked Turkey Caesar's",
+      "productType": "salad",
+      "availableAmount": 270,
+      "price": 9.0
+    }
+  ]
+}
