@@ -1,0 +1,29 @@
+{
+    "storeName": "Pizza Fan",
+    "latitude": 37.99316907008298,
+    "longitude": 23.767051314277786,
+    "foodCategory": "pizzeria",  
+    "stars": 3,
+    "noOfVotes": 416,
+    "storeLogo": "C:\\Users\\stroz\\Downloads\\pizza-fan.jpg",
+    "products": [
+      {
+        "productName": "margarita",
+        "productType": "pizza",
+        "availableAmount": 5000,
+        "price": 7.4
+      },
+      {
+        "productName": "special",
+        "productType": "pizza",
+        "availableAmount": 1000,
+        "price": 9.9
+      },
+      {
+        "productName": "chef’s Salad",
+        "productType": "salad",
+        "availableAmount": 100,
+        "price": 6.1
+      }
+    ]
+}

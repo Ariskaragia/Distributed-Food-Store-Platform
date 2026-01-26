@@ -1,0 +1,30 @@
+{
+        "storeName": "Barbecue",
+        "latitude":  38.0360929302614, 
+        "longitude": 23.738446184656393,
+        "foodCategory": "burger",  
+        "stars": 4,
+        "noOfVotes": 1238,
+        "storeLogo":"C:\\Users\\stroz\\Downloads\\JSON ΚΑΤΑΝΕΜΗΜΕΝΑ\\barbecue.png",
+        "products": [
+          {
+            "productName": "cheeseburger",
+            "productType": "burger",
+            "availableAmount": 1200,
+            "price": 9.6
+          },
+          {
+            "productName": "Shrooms burger",
+            "productType": "burger",
+            "availableAmount": 1000,
+            "price": 12.0
+          },
+          {
+            "productName": "Coleslaw",
+            "productType": "salad",
+            "availableAmount": 350,
+            "price": 5.15
+          }
+        ]
+
+    }

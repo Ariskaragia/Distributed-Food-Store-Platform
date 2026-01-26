@@ -1,0 +1,29 @@
+{
+    "storeName": "Zuccherino",
+    "latitude":  37.976373901000116,
+    "longitude": 23.727616261822874,
+    "foodCategory": "pastry",
+    "stars": 4,
+    "noOfVotes": 1386,
+    "storeLogo": "/usr/bin/images/storeLogo.png",
+    "products": [
+      {
+        "productName": "Cake Ferrero",
+        "productType": "cake",
+        "availableAmount": 1500,
+        "price": 32.0
+      },
+      {
+        "productName": "ice-cream chocolate",
+        "productType": "ice-cream",
+        "availableAmount": 900,
+        "price": 7.5
+      },
+      {
+        "productName": "tsoureki bueno",
+        "productType": "tsoureki",
+        "availableAmount": 250,
+        "price": 23.8
+      }
+    ]
+  }
