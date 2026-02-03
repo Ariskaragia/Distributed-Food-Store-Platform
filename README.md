@@ -6,7 +6,13 @@ The system supports **Customer/Manager roles**, **geo-based search**, **filterin
 
 ---
 
-## Features
+## Description
+
+- Developed an Android application with Customer and Manager roles and role-based screens and permissions. 
+- Implemented a distributed backend architecture with MasterServer, WorkerServers, and a ReducerServer. 
+- Applied a Map/Reduce workflow: filtering and snapshot aggregation on workers, ranking and merging on the reducer. 
+- Implemented replication and failover (primary/replica) with fallback when a primary worker is unavailable. 
+- Added geo-based store search (Haversine distance) and filters by category, price range, and ratings. 
 
 ### Customer
 - Sign-in / role-based navigation
